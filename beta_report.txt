@@ -1,0 +1,39 @@
+OVERALL: Satisfactory
+
+Nice xkcd comic!
+
+=== METHODOLOGY ================================================================
+
+=== Lookup steps ===============================================================
+* Obtain NS records for each domain - Yes
+* Obtain A records for each NS - Yes
+* Obtain AS for each NS IP address - Yes
+* Obtain AS organization for each ASN - Yes
+=== PASS =======================================================================
+
+=== Best practices =============================================================
+* Issue queries to local recursive resolver - Yes
+* Intermediate output – Nice pipeline of scripts along with a bash script to run them all!
+* Defensive programming – Yes
+=== PASS =======================================================================
+
+=== RESULTS ====================================================================
+
+=== Instructions for duplicating experiments ===================================
+* Sufficiently detailed – Yes
+=== PASS =======================================================================
+
+=== AS organizations with largest number of unreachable domain names ===========
+* Table – Please integrate your table into your results.md file using markdown (https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+* Explanation – Yes
+* Reasonable results – Yes
+* Caveats discussed – Nice discussion of the challenges of dealing with slightly different organization names. For how many of the top 10K domains was there "incomplete data [that] had to be removed"?
+=== PART =======================================================================
+
+=== Domains whose name servers are exclusively in-bailiwick ====================
+* Methodology – Your description of your methodology for determining if a domain's name server is in-bailiwick ("categorize each NS as 'in' or 'out' based on whether or not the full domain string appears within the NS's name") is slightly misleading: the name server's domain name must **end with** the domain name, indicating the name server is a subdomain.
+* Results – Yes
+* Explanation — Yes
+* Reasonable results – Yes
+* Caveats discussed – For how many of the top 10K domains is "no NS found"?
+=== PART =======================================================================

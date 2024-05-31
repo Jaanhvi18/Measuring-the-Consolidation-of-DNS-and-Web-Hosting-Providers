@@ -1,0 +1,13 @@
+      ,Org                                             ,% Unreachable       ,% Affected
+0     ,AMAZON-02                                       ,23.7                ,25.77
+1     ,CLOUDFLARENET                                   ,23.49               ,24.47
+2     ,GOOGLE                                          , 4.5                , 4.760000000000001
+3     ,AKAMAI-ASN2                                     , 2.16               , 6.65
+4     ,SECURITYSERVICES                                , 2.06               , 3.36
+5     ,MICROSOFT-CORP-MSN-AS-BLOCK                     , 1.87               , 2.37
+6     ,NSONE                                           , 1.1900000000000002 , 3.75
+7     ,TIGGEE                                          , 1.12               , 1.69
+8     ,GODADDY-DNS                                     , 0.4499999999999999 , 0.95
+9     ,CLOUDNSNET Cloud DNS Ltd.                       , 0.32               , 0.5499999999999999
+10    ,ALIBABA-CN-NET Hangzhou Alibaba Advertising Co. , 0.31               , 0.93
+Total ,                                                ,61.17               ,75.25
